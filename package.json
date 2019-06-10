@@ -1,0 +1,26 @@
+{
+    "name": "Smoothie Delight",
+    "version": "1.0.0",
+    "description": "Smoothie Delight",
+    "author": "Krzysztof Palczewski",
+    "devDependencies": {
+        "browser-sync": "*",
+        "es6-promise": "*",
+        "gulp": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-browserify": "*",
+        "gulp-cache": "*",
+        "gulp-clean-css": "*",
+        "gulp-concat": "*",
+        "gulp-csscomb": "*",
+        "gulp-imagemin": "*",
+        "gulp-jshint": "^2.1.0",
+        "gulp-less": "*",
+        "gulp-merge-media-queries": "*",
+        "gulp-minify-html": "*",
+        "gulp-plumber": "*",
+        "gulp-rename": "*",
+        "gulp-uglify": "*",
+        "jshint": "^2.10.2"
+    }
+}
