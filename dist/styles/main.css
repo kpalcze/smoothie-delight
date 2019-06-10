@@ -11,6 +11,21 @@ h2 {
 	color: #dfdfdf;
 }
 
+h3 {
+	font-size: 140%;
+	padding-bottom: 24px;
+	text-align: center;
+}
+
+h5 {
+	font-size: 135%;
+	padding: 16px 0;
+}
+
+p {
+	text-align: justify;
+}
+
 .navbar-light .navbar-brand {
 	color: #ed726d;
 }
@@ -53,5 +68,15 @@ h2 {
 .separator path {
 	stroke: none;
 	fill: #fff;
+}
+
+#our-smoothies i {
+	font-size: 300%;
+	padding: 16px;
+	color: #ed726d;
+}
+
+.center {
+	text-align: center;
 }
 
