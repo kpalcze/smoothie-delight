@@ -38,6 +38,9 @@ p {
     text-align: justify;
 }
 
+section {
+    padding: @p-6;
+}
 // HEADER
 
 .navbar-light {
@@ -60,12 +63,21 @@ p {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1) ), url(/dist/images/best-smoothie-delight-background.jpg) 100% 100% no-repeat;
 }
 
-.header__separator {
+.header__separator__wrapper {
     height: 150px; 
     width: 100%;
     overflow: hidden;
-    bottom: 41px;
+    bottom: 36px;
     position: absolute;
+}
+
+.header__separator {
+    height: 100%; 
+    width: 100%;
+    path {
+        stroke: none;
+        fill: @white;
+    }
 }
 
 .header__title {
@@ -74,14 +86,6 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: @p-4;
-}
-
-.separator {
-    height: 100%; width: 100%;
-    path {
-        stroke: none;
-        fill: @white;
-    }
 }
 
 
@@ -93,6 +97,28 @@ p {
         color: @primary;
         padding: @p-4;
     }
+}
+
+// SECTION SEPARATOR
+
+.section-separator {
+    position: relative;
+    height: 400px;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1) ), url(/dist/images/smoothie-delight-products.jpg) 100% 100% no-repeat fixed;
+}
+
+.separator {
+    height: 40%; 
+    width: 100%;
+    path {
+        stroke: none;
+        fill: @white;
+    }
+}
+
+.separator--bottom {
+    position: absolute;
+    bottom: 0;
 }
 
 // UTILITIES
