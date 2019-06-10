@@ -1,6 +1,8 @@
 # smoothie-delight
 Smoothie Delight Landing Page
 
+Website available at  [www.cookiedelight.kpalcze.usermd.net].
+
 ## Installation
 
 In order to install, run:
@@ -12,3 +14,5 @@ In order to install, run:
 In order to start the application, simply run:
 
 ```gulp```
+
+
