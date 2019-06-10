@@ -30,6 +30,27 @@ section {
 	padding: 24px;
 }
 
+i {
+	font-size: 300%;
+	padding: 16px;
+	color: #ed726d;
+}
+
+.btn-rounded {
+	border-radius: 10em;
+}
+
+.btn-filled {
+	color: white;
+	border-color: #ed726d;
+	background-color: #ed726d;
+}
+
+.btn-filled:hover {
+	border-color: #df4a45;
+	background-color: #df4a45;
+}
+
 .navbar-light .navbar-brand {
 	color: #ed726d;
 }
@@ -74,12 +95,6 @@ section {
 	transform: translate(-50%, -50%);
 }
 
-#our-smoothies i {
-	font-size: 300%;
-	padding: 16px;
-	color: #ed726d;
-}
-
 .section-separator {
 	position: relative;
 	height: 400px;
@@ -101,7 +116,30 @@ section {
 	bottom: 0;
 }
 
+#smoothie-quality {
+	padding: 24px 0;
+}
+
+#mail-subscription {
+	margin-top: 24px;
+	padding-top: 24px;
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .1)), url(/dist/images/smoothie-delight-products.jpg) 100% 100% no-repeat fixed;
+}
+
+#mail-subscription form {
+	max-width: 600px;
+	text-align: center;
+}
+
 .center {
 	text-align: center;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.light {
+	color: #fff;
 }
 

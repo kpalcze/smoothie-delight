@@ -7,6 +7,7 @@
 // SPACING
 @p-4: 16px;
 @p-6: 24px;
+@m-6: 24px;
 
 
 // GENERAL
@@ -40,6 +41,27 @@ p {
 
 section {
     padding: @p-6;
+}
+
+i {
+    font-size: 300%;
+    color: @primary;
+    padding: @p-4;
+}
+
+// BUTTONS
+.btn-rounded {
+    border-radius: 10em;
+}
+
+.btn-filled {
+    background-color: @primary;
+    color: white;
+    border-color: @primary; 
+    &:hover {
+        background-color: @primary-dark;
+        border-color: @primary-dark;
+    }
 }
 // HEADER
 
@@ -88,17 +110,6 @@ section {
     padding: @p-4;
 }
 
-
-// SECTION WHY OUR SMOOTHIES
-
-#our-smoothies {
-    i {
-        font-size: 300%;
-        color: @primary;
-        padding: @p-4;
-    }
-}
-
 // SECTION SEPARATOR
 
 .section-separator {
@@ -121,7 +132,33 @@ section {
     bottom: 0;
 }
 
+// SECTION SMOOTHIE QUALITIES
+
+#smoothie-quality {
+    padding: @p-6 0;
+}
+
+// MAIL SUBSCRIPTION 
+#mail-subscription {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1) ), url(/dist/images/smoothie-delight-products.jpg) 100% 100% no-repeat fixed;
+    padding-top: @p-6;
+    margin-top: @m-6;
+
+    form {
+        text-align: center;
+        max-width: 600px;
+    }
+}
+
 // UTILITIES
 .center {
     text-align: center;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.light {
+    color: @white;
 }
