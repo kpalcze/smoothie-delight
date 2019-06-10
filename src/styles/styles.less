@@ -1,0 +1,73 @@
+// COLORS
+@white: #fff;
+@primary: #ED726D;
+@primary-dark:#df4a45;
+
+// SPACING
+@p-4: 16px;
+@p-6: 24px;
+
+
+// HEADINGS
+h1 {
+    text-align: center;
+    color: @light;
+    font-size: 220%;
+    padding-bottom: @p-6;
+}
+
+h2 {
+    text-align: center;
+    color: @light;
+    font-size: 160%;
+}
+
+// HEADER
+
+.navbar-light {
+    .navbar-brand {
+        color: @primary;
+        
+    }
+
+    .nav-link {
+        color: rgba(0,0,0,0.9)!important;
+        &:hover {
+            color: rgba(0,0,0,1)!important;
+        }
+    }
+}
+
+.header__content {
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1) ), url(/dist/images/best-smoothie-delight-background.jpg) 100% 100% no-repeat;
+}
+
+.header__separator {
+    height: 150px; 
+    width: 100%;
+    overflow: hidden;
+    bottom: 0%;
+    position: absolute;
+}
+
+.header__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: @p-4;
+}
+
+.separator {
+    height: 100%; width: 100%;
+    path {
+        stroke: none;
+        fill: @white;
+    }
+}
+
