@@ -1,7 +1,7 @@
 # smoothie-delight
 Smoothie Delight Landing Page
 
-Website available at  [www.cookiedelight.kpalcze.usermd.net].
+Website available at  [www.smoothiedelight.kpalcze.usermd.net].
 
 ## Installation
 
