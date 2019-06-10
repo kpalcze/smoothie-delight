@@ -2,13 +2,13 @@ h1 {
 	font-size: 220%;
 	padding-bottom: 24px;
 	text-align: center;
-	color: #e9e9e9;
+	color: #dfdfdf;
 }
 
 h2 {
 	font-size: 160%;
 	text-align: center;
-	color: #e9e9e9;
+	color: #dfdfdf;
 }
 
 .navbar-light .navbar-brand {
@@ -24,17 +24,14 @@ h2 {
 }
 
 .header__content {
-	position: absolute;
 	z-index: -1;
-	top: 0;
-	width: 100%;
 	height: 90vh;
 	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .1)), url(/dist/images/best-smoothie-delight-background.jpg) 100% 100% no-repeat;
 }
 
 .header__separator {
 	position: absolute;
-	bottom: 0;
+	bottom: 41px;
 	overflow: hidden;
 	width: 100%;
 	height: 150px;
